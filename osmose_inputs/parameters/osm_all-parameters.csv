@@ -1,0 +1,43 @@
+# OSM main configuration file;
+# Osmose 3 update 1;
+# Petit commentaire test;
+;
+;
+# Time;
+simulation.time.ndtPerYear;24
+simulation.time.nyear;10
+;
+# Restart (provide the restart file);
+## Redefined in EA;
+#simulation.restart.file;null
+;
+# Advanced parameters;
+simulation.nschool;30
+simulation.ncpu;7
+simulation.nplankton;6
+simulation.nsimulation;1
+simulation.nspecies;11
+;
+# Mortality algorithm;
+mortality.algorithm;stochastic
+mortality.subdt;10
+;
+################################################# Configuration files;
+osmose.configuration.output;../../../osmose_inputs/parameters/osm_param-output.csv
+osmose.configuration.movement;../../../osmose_inputs/parameters/osm_param-movement.csv
+## No MPA at the moment;
+#osmose.configuration.mpa;osm_param-mpa.csv
+
+osmose.configuration.mortality.fishing;../../../osmose_inputs/parameters/osm_param-fishing.csv
+osmose.configuration.mortality.natural;../../../osmose_inputs/parameters/osm_param-natural-mortality.csv
+osmose.configuration.mortality.predation;../../../osmose_inputs/parameters/osm_param-predation.csv
+osmose.configuration.mortality.starvation;../../../osmose_inputs/parameters/osm_param-starvation.csv
+
+osmose.configuration.reproduction;../../../osmose_inputs/parameters/osm_param-reproduction.csv
+osmose.configuration.species;../../../osmose_inputs/parameters/osm_param-species.csv
+osmose.configuration.plankton;../../../osmose_inputs/parameters/osm_param-ltl.csv
+osmose.configuration.grid;../../../osmose_inputs/parameters/osm_param-grid.csv
+osmose.configuration.initialization;../../../osmose_inputs/parameters/osm_param-init-pop.csv
+# Osmose 3 Update 1 (2014/06/01) Added parameter osmose.version;Osmose 3 Update 1 (2014/06/01)
+# Osmose 3 Update 2 (2015/03/01) Updated parameter osmose.version to Osmose 3 Update 2 (2015/03/01);
+osmose.version;Osmose 3 Update 2 (2015/03/01)

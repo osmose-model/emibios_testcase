@@ -1,0 +1,24 @@
+# Osmose 3 Update 2 (2015/03/01) Deprecated parameter reproduction.season.file
+# reproduction.season.file;../../../osmose_inputs/parameters/reproduction-seasonality.csv
+# Osmose 3 Update 2 (2015/03/01) Added parameter reproduction.season.file.sp0;../../../osmose_inputs/parameters/reproduction-seasonality-sp0.csv
+reproduction.season.file.sp0;../../../osmose_inputs/parameters/reproduction-seasonality-sp0.csv
+# Osmose 3 Update 2 (2015/03/01) Added parameter reproduction.season.file.sp1;../../../osmose_inputs/parameters/reproduction-seasonality-sp1.csv
+reproduction.season.file.sp1;../../../osmose_inputs/parameters/reproduction-seasonality-sp1.csv
+# Osmose 3 Update 2 (2015/03/01) Added parameter reproduction.season.file.sp2;../../../osmose_inputs/parameters/reproduction-seasonality-sp2.csv
+reproduction.season.file.sp2;../../../osmose_inputs/parameters/reproduction-seasonality-sp2.csv
+# Osmose 3 Update 2 (2015/03/01) Added parameter reproduction.season.file.sp3;../../../osmose_inputs/parameters/reproduction-seasonality-sp3.csv
+reproduction.season.file.sp3;../../../osmose_inputs/parameters/reproduction-seasonality-sp3.csv
+# Osmose 3 Update 2 (2015/03/01) Added parameter reproduction.season.file.sp4;../../../osmose_inputs/parameters/reproduction-seasonality-sp4.csv
+reproduction.season.file.sp4;../../../osmose_inputs/parameters/reproduction-seasonality-sp4.csv
+# Osmose 3 Update 2 (2015/03/01) Added parameter reproduction.season.file.sp5;../../../osmose_inputs/parameters/reproduction-seasonality-sp5.csv
+reproduction.season.file.sp5;../../../osmose_inputs/parameters/reproduction-seasonality-sp5.csv
+# Osmose 3 Update 2 (2015/03/01) Added parameter reproduction.season.file.sp6;../../../osmose_inputs/parameters/reproduction-seasonality-sp6.csv
+reproduction.season.file.sp6;../../../osmose_inputs/parameters/reproduction-seasonality-sp6.csv
+# Osmose 3 Update 2 (2015/03/01) Added parameter reproduction.season.file.sp7;../../../osmose_inputs/parameters/reproduction-seasonality-sp7.csv
+reproduction.season.file.sp7;../../../osmose_inputs/parameters/reproduction-seasonality-sp7.csv
+# Osmose 3 Update 2 (2015/03/01) Added parameter reproduction.season.file.sp8;../../../osmose_inputs/parameters/reproduction-seasonality-sp8.csv
+reproduction.season.file.sp8;../../../osmose_inputs/parameters/reproduction-seasonality-sp8.csv
+# Osmose 3 Update 2 (2015/03/01) Added parameter reproduction.season.file.sp9;../../../osmose_inputs/parameters/reproduction-seasonality-sp9.csv
+reproduction.season.file.sp9;../../../osmose_inputs/parameters/reproduction-seasonality-sp9.csv
+# Osmose 3 Update 2 (2015/03/01) Added parameter reproduction.season.file.sp10;../../../osmose_inputs/parameters/reproduction-seasonality-sp10.csv
+reproduction.season.file.sp10;../../../osmose_inputs/parameters/reproduction-seasonality-sp10.csv
