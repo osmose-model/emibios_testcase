@@ -34,12 +34,12 @@ runModel  = function(param, names, ...) {
               verbose=NULL, clean=TRUE)   
 
     # read Osmose outputs 
-    data = osmose2R(outdir, path=outdir, version="v3r2")
+    data = read_osmose(outdir, path=outdir, version="v3r2")
 
     # extract the biomass and yields variables (monthly data)
-    osmose.biomass = data$global$biomass       
-    osmose.thresholds = data$global$biomass    
-    osmose.yields = data$global$yield          
+    osmose.biomass = data$data$biomass
+    osmose.thresholds = data$data$biomass
+    osmose.yields = data$data$yield
 
     # define a year factor for yearly integration of biomass
     # from monthly biomass
