@@ -1,0 +1,47 @@
+osmose[info] *********************************************
+osmose[info] OSMOSE - Modelling Marin Exploited Ecosystems
+osmose[info] http://www.osmose-model.org
+osmose[info] *********************************************
+osmose[info] Software version: Osmose 3 Update 3 (2018/01/15)
+osmose[info] Running configuration osm_all-parameters.csv
+osmose[info] Loading parameters from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_all-parameters.csv
+osmose[info] . Loading parameters from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-output.csv
+osmose[warn] . . Osmose will ignore parameter output.dir.path = output (from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-output.csv line 4)
+osmose[warn] . . Parameter already defined output.dir.path = output (from command line)
+osmose[info] . Loading parameters from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-movement.csv
+osmose[info] . Loading parameters from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-fishing.csv
+osmose[info] . Loading parameters from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-natural-mortality.csv
+osmose[info] . Loading parameters from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-predation.csv
+osmose[info] . Loading parameters from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-starvation.csv
+osmose[info] . Loading parameters from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-reproduction.csv
+osmose[info] . Loading parameters from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-species.csv
+osmose[info] . Loading parameters from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-ltl.csv
+osmose[info] . Loading parameters from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-grid.csv
+osmose[info] . Loading parameters from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-init-pop.csv
+osmose[warn] . Osmose will ignore parameter osmose.version = Osmose 3 Update 3 (2018/01/15) (from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_all-parameters.csv line 43)
+osmose[warn] . Parameter already defined osmose.version = Osmose 3 Update 3 (2018/01/15) (from /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/osm_param-output.csv line 96)
+osmose[info] Configuration version Osmose 3 Update 3 (2018/01/15) matches software version Osmose 3 Update 3 (2018/01/15). Nothing to do.
+osmose[info] Output folder set to /home/nbarrier/Modeles/osmose/git-applis/emibios_testcase/master/output/
+osmose[info] Output CSV separator set to COMA
+osmose[info] Grid: fr.ird.osmose.grid.OriginalGrid
+osmose[info] Simulation 0 started...
+osmose[info] Loading plankton data...
+osmose[info] Mortality algorithm set to STOCHASTIC
+osmose[warn] Could not find Boolean parameter output.mortality.natural.bySize.enabled. Osmose assumes it is false.
+osmose[warn] Could not find Boolean parameter output.mortality.natural.byAge.enabled. Osmose assumes it is false.
+osmose[warn] Could not find Boolean parameter output.mortality.naturalN.bySize.enabled. Osmose assumes it is false.
+osmose[warn] Could not find Boolean parameter output.mortality.naturalN.byAge.enabled. Osmose assumes it is false.
+osmose[info] year 0
+osmose[info] year 1
+osmose[info] year 2
+osmose[info] year 3
+osmose[info] year 4
+osmose[info] year 5
+osmose[info] year 6
+osmose[info] year 7
+osmose[info] year 8
+osmose[info] year 9
+osmose[info] Simulation 0 completed (time ellapsed: 8 seconds)
+osmose[info] *********************************************
+osmose[info] OSMOSE Model copyright © IRD
+osmose[info] *********************************************

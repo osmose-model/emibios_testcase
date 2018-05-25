@@ -1,8 +1,0 @@
-grid.java.classname;fr.ird.osmose.grid.OriginalGrid
-grid.lowright.lat;33.16973 
-grid.lowright.lon;10.02947 
-grid.mask.file;../../../osmose_inputs/parameters/grid_mask_gabes_all99.csv
-grid.ncolumn;40
-grid.nline;26
-grid.upleft.lat;35.31389
-grid.upleft.lon;13.33012
