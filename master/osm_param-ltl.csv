@@ -49,3 +49,10 @@ plankton.TL.plk4;1
 plankton.TL.plk5;2.5
 ;
 plankton.biomass.total.plk5;1000000
+
+
+plankton.file.plk0;newformat_eco3m_gog44_conversion_factor.nc
+plankton.file.plk1;newformat_eco3m_gog44_conversion_factor.nc
+plankton.file.plk2;newformat_eco3m_gog44_conversion_factor.nc
+plankton.file.plk3;newformat_eco3m_gog44_conversion_factor.nc
+plankton.file.plk4;newformat_eco3m_gog44_conversion_factor.nc
