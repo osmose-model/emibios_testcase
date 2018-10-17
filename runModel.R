@@ -15,7 +15,7 @@ runModel  = function(param, names, ...) {
     # writes the calibrated parameters into a CSV file
     # following Osmose format. The parameters in this file
     # will overwrite the Osmose parameter
-    write.table(param, file="master/calibration-parameters.csv", sep=";", 
+    write.table(param, file="./calibration-parameters.csv", sep=";", 
                 col.names=FALSE, quote=FALSE)
 
     # define the java and Osmose executables
@@ -29,17 +29,19 @@ runModel  = function(param, names, ...) {
     if(!file.exists(outdir)) dir.create(outdir)
     
     # run Osmose Model
-    runOsmose(osmose=osmJar, java=javaAp, input="master/config.csv", 
+    runOsmose(osmose=osmJar, java=javaAp, input="./config.csv", 
               output=outdir, options=NULL, log="osmose.log", 
-              verbose=NULL, clean=TRUE)   
-
+              verbose=FALSE, clean=TRUE)   
+    
     # read Osmose outputs 
-    data = read_osmose(outdir, path=outdir, version="v3r2")
+    data = read_osmose(path=outdir, version="v3r2")
+    print(data)
 
     # extract the biomass and yields variables (monthly data)
-    osmose.biomass = data$data$biomass
-    osmose.thresholds = data$data$biomass
-    osmose.yields = data$data$yield
+    osmose.biomass = data$biomass
+    osmose.thresholds = data$biomass
+    osmose.yields = data$yield
+    print(osmose.biomass)
 
     # define a year factor for yearly integration of biomass
     # from monthly biomass
